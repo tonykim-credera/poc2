@@ -38,7 +38,7 @@ const Homepage = observer(() => {
 
   return (
     <div className="px-0 lg:px-12 py-6">
-      <div className="flex-col-reverse flex lg:flex-row-reverse pt-20 items-center">
+      <div className="flex-col-reverse flex lg:flex-row-reverse pt-20 items-center ">
         <img
           className="w-full lg:h-96 lg:w-1/3 object-cover rounded lg:rounded-l-full shadow-xl shadow-blue-gray-900/50 ml-auto"
           src={TonyIMG}
