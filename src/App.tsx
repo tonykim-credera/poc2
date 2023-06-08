@@ -27,7 +27,7 @@ const App = observer(() => {
               <ComplexNavbar />
             </div>
             <Routes>
-              <Route path="/" element={<Homepage />} />
+              <Route path="/" Component={Homepage} />
               <Route path="/about" Component={Homepage} />
               <Route path="/projects" Component={Project} />
             </Routes>
