@@ -1,19 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../index.scss";
-import {
-  Navbar,
-  MobileNav,
-  Typography,
-  Button,
-  IconButton,
-  Card,
-  Progress,
-} from "@material-tailwind/react";
-import ComplexNavbar from "../Components/ComplexNav";
-import CardComponent from "../Components/Card";
+import { Typography, Progress } from "@material-tailwind/react";
 import colorStore from "../Store/ThemeColorStore";
 import { observer } from "mobx-react-lite";
-import { TIMEOUT } from "dns";
 import { skills, skills2 } from "../Data/Skills";
 import TonyIMG from "../Images/Tony.jpg";
 

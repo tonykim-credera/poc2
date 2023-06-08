@@ -1,14 +1,5 @@
 import React from "react";
 import "../index.scss";
-import {
-  Navbar,
-  MobileNav,
-  Typography,
-  Button,
-  IconButton,
-  Card,
-} from "@material-tailwind/react";
-import ComplexNavbar from "../Components/ComplexNav";
 import colorStore from "../Store/ThemeColorStore";
 import CardComponent from "../Components/Card";
 import { projectsData, projectsData2 } from "../Data/ProjectsData";

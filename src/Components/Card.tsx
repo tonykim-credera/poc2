@@ -4,8 +4,6 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Avatar,
-  Tooltip,
 } from "@material-tailwind/react";
 
 interface CardComponentProps {

@@ -3,27 +3,18 @@ import {
   Navbar,
   MobileNav,
   Typography,
-  Button,
   Menu,
   MenuHandler,
   MenuList,
   MenuItem,
   Avatar,
-  Card,
   IconButton,
   Switch,
 } from "@material-tailwind/react";
 import {
-  CubeTransparentIcon,
   UserCircleIcon,
-  CodeBracketSquareIcon,
   Square3Stack3DIcon,
   ChevronDownIcon,
-  Cog6ToothIcon,
-  InboxArrowDownIcon,
-  LifebuoyIcon,
-  PowerIcon,
-  RocketLaunchIcon,
   Bars2Icon,
   EnvelopeIcon,
 } from "@heroicons/react/24/outline";
@@ -39,11 +30,8 @@ function HandleSwitch(colorMode: string, setColorMode: Function) {
     setColorMode("light");
     colorStore.handleThemeColorSwitchClick("light");
   }
-  //   setColorMode(colorMode === "gray" ? "white" : "gray");
-  //   colorStore.handleThemeColorSwitchClick(colorMode);
 }
 
-// nav list menu
 const navListMenuItems = [
   {
     title: "Email",
