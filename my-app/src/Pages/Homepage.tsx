@@ -100,7 +100,7 @@ const Homepage = observer(() => {
           })}
         </div>
       </div>
-      <h2 className="font-roboto text-3xl text-gray-600 pt-20 ">
+      <h2 className="font-roboto text-3xl text-gray-600 pt-20">
         A LITTLE BIT MORE ABOUT ME
       </h2>
       <p className="font-roboto text-gray-600 mt-6 w-1/2 mb-12 w-full xl:w-1/2">
