@@ -39,7 +39,7 @@ const Homepage = observer(() => {
           >
             Hi I'm Tony,
           </h1>
-          <h2 className="font-roboto text-3xl text-gray-600 mt-6">
+          <h2 className="font-roboto text-2xl lg:text-3xl text-gray-600 mt-6">
             A {title} DEVELOPER
           </h2>
           <p className="font-roboto text-gray-600 mt-6">
@@ -56,7 +56,7 @@ const Homepage = observer(() => {
           </p>
         </div>
       </div>
-      <h2 className="font-roboto text-3xl text-gray-600 pt-20">
+      <h2 className="font-roboto text-2xl lg:text-3xl text-gray-600 pt-20">
         MY TECH STACK
       </h2>
       <div className="flex gap-4">
@@ -89,7 +89,7 @@ const Homepage = observer(() => {
           })}
         </div>
       </div>
-      <h2 className="font-roboto text-3xl text-gray-600 pt-20">
+      <h2 className="font-roboto text-2xl lg:text-3xl text-gray-600 pt-20">
         A LITTLE BIT MORE ABOUT ME
       </h2>
       <p className="font-roboto text-gray-600 mt-6 w-1/2 mb-12 w-full xl:w-1/2">
