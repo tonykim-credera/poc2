@@ -31,7 +31,7 @@ export default function CardComponent({
         color="transparent"
         className="m-0 rounded-none"
       >
-        <img className="lg:h-72 object-cover" src={image} alt={alt} />
+        <img className="lg:h-72 w-full object-cover" src={image} alt={alt} />
       </CardHeader>
       <CardBody>
         <Typography
