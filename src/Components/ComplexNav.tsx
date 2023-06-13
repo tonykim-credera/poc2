@@ -26,9 +26,13 @@ function HandleSwitch(colorMode: string, setColorMode: Function) {
   if (colorMode === "light") {
     setColorMode("dark");
     colorStore.handleThemeColorSwitchClick("dark");
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
   } else {
     setColorMode("light");
     colorStore.handleThemeColorSwitchClick("light");
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
   }
 }
 
